@@ -1,12 +1,13 @@
+# https://github.com/nahTwan/lab11-JL-LL
+# Partner 1: Jordon Lawson
+# Partner 2: Lucas Leinweber
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
 
 One function per operation, in order.
 """
-# https://github.com/nahTwan/lab11-JL-LL
-# Partner 1: Jordon Lawson
-# Partner 2: Lucas Leinweber
 
 import math
 
