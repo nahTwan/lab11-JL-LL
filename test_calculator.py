@@ -1,9 +1,9 @@
-import unittest
-from calculator import *
-
 # https://github.com/nahTwan/lab11-JL-LL
 # Partner 1: Jordon Lawson
 # Partner 2: Lucas Leinweber
+
+import unittest
+from calculator import *
 
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
