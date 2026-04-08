@@ -31,10 +31,11 @@ def divide(a, b):
         return 0
 
 def logarithm(a, b):
-    try:
-        return math.log(a,b)
-    except ValueError:
-        return 0
+    if b <= 0 or b == 1:
+        raise ValueError("Invalid base")
+    if a <= 0:
+        raise ValueError("Invalid argument")
+    return math.log(a, b)
 
 def exponent(a, b):
     return a * b
