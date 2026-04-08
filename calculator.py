@@ -4,9 +4,6 @@ calculator.py
 
 One function per operation, in order.
 """
-# https://github.com/nahTwan/lab11-JL-LL
-# Partner 1: Jordon Lawson
-# Partner 2: Lucas Leinweber
 import math
 
 def square_root(a):
@@ -16,6 +13,7 @@ def square_root(a):
 
 def hypotenuse(a, b):
     return math.hypot(a, b)
+
 
 def add(a, b):
      return a + b
@@ -34,11 +32,11 @@ def divide(a, b):
 
 def logarithm(a, b):
     if b <= 0 or b == 1:
-        raise ValueError("Invalid Base")
+        raise ValueError("Invalid base")
     if a <= 0:
-        raise ValueError("Invalid A")
-    return math.log(a,b)
+        raise ValueError("Invalid argument")
+    return math.log(a, b)
 
 def exponent(a, b):
-    return pow(a,b)
+    return pow(a, b)
 
